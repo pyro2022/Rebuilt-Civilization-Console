@@ -1,7 +1,12 @@
 package com.prominent.crc.procdata;
 
 public class Playerdata {
-    public Playerdata(int coin,String statement){//The 'String statement' is need to separate.
-
+    int coin;
+    float mobilityPoint;
+    float technologyPoint;
+    public Playerdata(int coin,float mobilityPoint,float technologyPoint){
+        this.coin=coin;
+        this.mobilityPoint=mobilityPoint;
+        this.technologyPoint=technologyPoint;
     }
 }
